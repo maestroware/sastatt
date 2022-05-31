@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ping Pong</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+</head>
+
+<body background="background1.jpg">
+  <center>
+    <header>
+      <h5 class="btn btn-success">Table-Tennis ka sasta version - CHINTU THE INTERRUPTER</h1><br>
+        <h1 class="btn btn-danger">Caution - this game is very hard, rage caution</h2><br>
+          <button class="dc btn btn-info" data-toggle="modal" data-target="#ins">Instructions...</button>
+    </header>
+    <button onclick="rage()" class="rage">Start the rage game.</button>
+    <button onclick="rerage()" class="rage">Restart the rage game.</button>
+    <h3 id="ragestatus">Status: Not Started</h3>
+    <div id="canvas"></div>
+    <div id="ins" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1>Instructions</h1> <button class="close" data-dismiss="modal">❌</button>
+            <ol>
+              <li>
+                <h3>First, Keep your Laptop/PC straight</h3>
+              </li>
+              <li>
+                <h3>Move 3-4 feet away from PC</h3>
+              </li>
+              <li>
+                <h3>Move your right wrist in up&down manner, a red dot should appear on your wrist</h3>
+              </li>
+              <li>
+                <h3>Press play button, then move 3-4 feet away from PC again</h3>
+              </li>
+              <li>
+                <h3>Move the red paddle with your right wrist</h3>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      &copy; 2022 Chintu baba;
+    </footer>
+  </center>
+  <script src="main.js"></script>
+</body>
+
+</html>

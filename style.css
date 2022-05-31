@@ -1,0 +1,16 @@
+body {
+ padding: 10px;
+ margin: 0;   
+}
+
+.rage {
+    background-color: blue;
+    border: 1px solid black;
+    color: white;
+    padding: 10px;
+}
+
+.rage:hover {
+    background-color: black;
+    border: 1px solid blue;
+}
